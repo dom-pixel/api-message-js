@@ -2,9 +2,12 @@
   "name": "@dom-pixel/api-message",
   "version": "1.0.0",
   "description": "The response api.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare" : "npm run build"
   },
   "repository": {
     "type": "git",
@@ -12,8 +15,13 @@
   },
   "author": "Juniel Filappi",
   "license": "ISC",
+  "keywords": ["Api", "Message", "Response", "Api Message"],
   "bugs": {
     "url": "https://github.com/dom-pixel/api-message-js/issues"
   },
-  "homepage": "https://github.com/dom-pixel/api-message-js#readme"
+  "homepage": "https://github.com/dom-pixel/api-message-js#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "files": ["lib/**/*"]
 }
