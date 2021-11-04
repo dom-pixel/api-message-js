@@ -1,0 +1,19 @@
+{
+  "name": "@dom-pixel/api-message",
+  "version": "1.0.0",
+  "description": "The response api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dom-pixel/api-message-js.git"
+  },
+  "author": "Juniel Filappi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dom-pixel/api-message-js/issues"
+  },
+  "homepage": "https://github.com/dom-pixel/api-message-js#readme"
+}
